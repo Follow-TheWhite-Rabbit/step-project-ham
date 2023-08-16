@@ -1,0 +1,30 @@
+.footer {
+    padding: 48px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #22353F;
+}
+.footer_items {
+    display: flex;
+    justify-content: space-between;
+    width: 326px;
+}
+.footer_text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #AEAEAE;
+    display: flex;
+}
+.footer_span {
+    color: #18CFAB;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.footer_span::after {
+    content: "";
+    margin-left: 4px;
+    width: 1px;
+    height: 14px;
+    background-color: #AEAEAE;
+}

@@ -1,0 +1,37 @@
+.Purchase {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/Sections background/section-2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 127px 0;
+    position: relative;
+
+}
+.Purchase_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #18CFAB;
+}
+.Purchase_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #D8D8D8;
+    margin-top: 16px;
+    margin-bottom: 62px;
+}
+.Purchase_button {
+    padding: 16px 26px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #18CFAB;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 -5px #ffffff;
+    cursor: pointer;
+}

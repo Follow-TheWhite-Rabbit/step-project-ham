@@ -1,0 +1,52 @@
+.option {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 8px solid #ffffff;
+
+}
+.option_size {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 110px;
+}
+.option_one {
+    background: #1C2A33;
+    padding-top: 95px;
+
+}
+.option_two {
+    background: #18CFAB;
+    padding-top: 106px;
+}
+.option_three {
+    background: #1C2A33;
+    padding-top: 95px;
+}
+.option_four {
+    background: #18CFAB;
+    padding-top: 107px;
+}
+.text_option {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.hand {
+    color: #18CFAB;
+    margin-top: 48px;
+}
+.diamond {
+    color: #FFFFFF;
+    margin-top: 59px;
+}
+.bulb {
+    color: #18CFAB;
+    margin-top: 49px;
+}
+.gadgets {
+    color: #FFFFFF;
+    margin-top: 59px;
+}

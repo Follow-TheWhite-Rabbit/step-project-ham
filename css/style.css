@@ -1,0 +1,10 @@
+@import "_common.css";
+@import "sections/header.css";
+@import "sections/option.css";
+@import "sections/service.css";
+@import "sections/purchase.css";
+@import "sections/work.css";
+@import "sections/breacking_news.css";
+@import "sections/client_feedback.css";
+@import "sections/gallery.css";
+@import "sections/footer.css";

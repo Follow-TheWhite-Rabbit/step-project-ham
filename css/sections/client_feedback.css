@@ -1,0 +1,117 @@
+.client_feedback {
+    padding: 98px 0 104px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../img/Sections background/section-3.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.feedback_title {
+    color: #FFFFFF;
+}
+.client_feedback_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+}
+.client_feedback_quotes {
+    margin-bottom: 36px;
+}
+.client_feedback_text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #BBBBBB;
+    text-align: center;
+}
+.client_feedback_name {
+    margin-top: 37px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #18CFAB;
+}
+.client_feedback_job {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+    color: #BBBBBB;
+}
+.client_feedback_img {
+    min-width: 124px;
+    min-height: 122px;
+    border-radius: 50%;
+    border: 10px solid rgba(31, 218, 181, 0.2);
+    margin: 50px 0 60px
+}
+.client_feedback_carousel {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 338px;
+    align-items: center;
+    height: 85px;
+}
+.feedback_button {
+    width: 31px;
+    height: 31px;
+    background: transparent;
+    border: 1px solid #BBBBBB;
+    color: #BBBBBB;
+    cursor: pointer;
+    position: relative;
+}
+.button_arrow {
+    border: solid #BBBBBB;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+}
+.arrow_left {
+    transform: rotate(135deg);
+    top: 10px;
+    left: 12px;
+}
+.feedback_button:hover{
+    background: #18CFAB;
+    border: 1px solid #18CFAB;
+}
+.feedback_button:hover .button_arrow {
+    border: solid #FFFFFF;
+    border-width: 0 2px 2px 0;
+}
+.arrow_right {
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 9px;
+}
+.client_feedback_carousel_img {
+    max-width: 49px;
+    max-height: 49px;
+    border-radius: 50%;
+    border: 5px solid rgba(31, 218, 181, 0.2);
+    transition: margin-bottom 1s;
+}
+.client_feedback_gallery {
+    overflow: hidden;
+}
+.slider {
+    display: flex;
+    transition: transform 1000ms linear;
+}
+.client_feedback_carousel img:nth-child(1) {
+    margin-bottom: 30px;
+}
+.client_carousel_hidden {
+    overflow: hidden;
+}
+.client_carousel_img {
+    max-width: 350px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 38px;
+    align-items: center;
+    transition: transform 1000ms linear;
+}
